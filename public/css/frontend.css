@@ -1,0 +1,41 @@
+body {
+  background-color: #f8f9fa;
+}
+.navbar {
+  background: linear-gradient(45deg, #004b8d, #00c6ff);
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: white;
+  margin-left: 20px; 
+}
+.navbar-nav .nav-item {
+  margin-right: 20px; /* Adds margin between the items */
+}
+.navbar-nav .nav-link {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.navbar-nav .nav-link:hover {
+  color: #ffdd57;
+}
+footer {
+  background-color: #343a40;
+  color: white;
+}
+footer a {
+  color: #ffdd57;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.btn-primary {
+  background-color: #0069d9;
+  border-color: #0069d9;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}

@@ -1,0 +1,140 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  width: calc(100% - 80px);
+  /* Increased width by 40px on each side */
+  max-width: 1800px;
+  /* Adjust maximum width */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.5rem;
+}
+
+.card-header {
+  background-color: #0056b3;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 1rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.table {
+  margin-bottom: 0;
+  table-layout: fixed;
+  /* Ensures fixed column widths */
+  width: 100%;
+}
+
+.table th {
+  background-color: #f1f3f5;
+  color: #495057;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 0.5px;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.75rem;
+}
+
+.table tbody tr:hover {
+  background-color: #f8f9fa;
+  transition: background-color 0.3s ease;
+}
+
+.table th:nth-child(1),
+.table td:nth-child(1) {
+  width: 150px;
+  /* Increase User Name column width */
+}
+
+.table th:nth-child(2),
+.table td:nth-child(2) {
+  width: 200px;
+  /* Increase Email column width */
+}
+
+.table th:nth-child(3),
+.table td:nth-child(3) {
+  width: 150px;
+  /* Increase Car Name column width */
+}
+
+.table th:nth-child(4),
+.table td:nth-child(4) {
+  width: 130px;
+  /* Increase Brand column width */
+}
+
+.table th:nth-child(5),
+.table td:nth-child(5) {
+  width: 120px;
+  /* Increase Model column width */
+}
+
+.table th:nth-child(6),
+.table td:nth-child(6) {
+  width: 130px;
+  /* Increase Car Type column width */
+}
+
+.table th:nth-child(7),
+.table td:nth-child(7) {
+  width: 150px;
+  /* Increase Daily Rent Price column width */
+}
+
+.table th:nth-child(8),
+.table td:nth-child(8),
+.table th:nth-child(9),
+.table td:nth-child(9) {
+  width: 140px;
+  /* Increase Start Date and End Date column width */
+}
+
+.table th:nth-child(10),
+.table td:nth-child(10) {
+  width: 130px;
+  /* Increase Total Cost column width */
+}
+
+.table th:nth-child(11),
+.table td:nth-child(11) {
+  width: 120px;
+  /* Increase Status column width */
+}
+
+.table th:nth-child(12),
+.table td:nth-child(12) {
+  width: 150px;
+  /* Increase Action column width */
+}
+
+.badge {
+  font-size: 0.875rem;
+  padding: 0.5em 0.75em;
+  border-radius: 0.25rem;
+}
+
+.btn-sm {
+  font-size: 0.875rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.back-btn {
+  margin-bottom: 1rem;
+}
